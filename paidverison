@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
        FileName = "resin hub",
        SaveKey = true,
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = "3a2972e5-7fed-4721-b443-44d2a66f1bc5"
+       Key = "v.1paid"
     }
  })
 
