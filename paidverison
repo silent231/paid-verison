@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
        FileName = "resin hub",
        SaveKey = true,
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = "v.1paid"
+       Key = "paid"
     }
  })
 
@@ -40,5 +40,6 @@ else if game.PlaceId == 7952502098 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/silent231/verlox/main/paidverison"))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/silent231/private5/main/verloxpaid"))()
+end
 end
 end
